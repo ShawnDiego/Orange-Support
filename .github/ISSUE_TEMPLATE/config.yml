@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Orange 支持中心
+    url: https://orange-official-site-orange1-d2gaxdul7d814785d.webapps.tcloudbase.com/support
+    about: 先查看快速排查、日志位置和提交要求。
+  - name: 私密报告安全问题
+    url: https://github.com/ShawnDiego/Orange-Support/security/advisories/new
+    about: 安全问题不要通过公开 Issue 提交。

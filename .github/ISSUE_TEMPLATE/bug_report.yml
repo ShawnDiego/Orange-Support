@@ -1,0 +1,67 @@
+name: 错误报告
+description: 提交可复现的 Orange 功能、媒体源或播放问题
+title: "[Bug] "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈。请勿提交密码、访问令牌、验证码、手机号、邮箱或完整私人媒体路径。
+  - type: input
+    id: version
+    attributes:
+      label: Orange 版本
+      description: 可在应用设置或官网版本说明中确认。
+      placeholder: 例如 1.0.2.0
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows 版本
+      placeholder: 例如 Windows 11 24H2
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: 问题范围
+      options:
+        - 首页或媒体库
+        - 媒体源或扫描
+        - 刮削或匹配
+        - 播放、字幕或音轨
+        - 账号、设备或云备份
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      description: 请写出从启动应用开始的最短步骤。
+      placeholder: |
+        1. 打开……
+        2. 选择……
+        3. 出现……
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 实际结果与预期结果
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: 补充信息
+      description: 可附截图或脱敏后的日志。日志位于 %APPDATA%\Orange\app.log。
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: 隐私确认
+      options:
+        - label: 我已检查附件和日志，不包含密码、令牌或不希望公开的个人信息。
+          required: true

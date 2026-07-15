@@ -1,0 +1,32 @@
+name: 功能建议
+description: 说明你希望 Orange 改善的真实使用场景
+title: "[Feature] "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: scenario
+    attributes:
+      label: 使用场景
+      description: 先说明当前在完成什么任务，以及现有流程在哪里受阻。
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 期望结果
+      description: 描述理想结果，不必限定具体实现方式。
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 当前替代方式
+      description: 如果已有临时做法，请说明它的不足。
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: 范围确认
+      options:
+        - label: 我已确认支持中心和现有 Issue 中没有相同建议。
+          required: true
