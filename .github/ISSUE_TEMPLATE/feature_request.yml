@@ -4,6 +4,54 @@ title: "[Feature] "
 labels:
   - enhancement
 body:
+  - type: markdown
+    attributes:
+      value: |
+        请勿提交密码、Cookie、访问令牌、刷新令牌、验证码、手机号、邮箱、媒体文件名、完整私人路径或其他用户数据。
+  - type: dropdown
+    id: feedback_type
+    attributes:
+      label: 反馈类型
+      options:
+        - 功能建议
+        - 体验建议
+        - 其他
+    validations:
+      required: true
+  - type: dropdown
+    id: module
+    attributes:
+      label: 问题模块
+      options:
+        - 安装与启动
+        - 媒体源
+        - 扫描与刮削
+        - 媒体库
+        - 播放
+        - 字幕与音轨
+        - 账号与云同步
+        - 性能或崩溃
+        - 其他
+    validations:
+      required: true
+  - type: dropdown
+    id: severity
+    attributes:
+      label: 影响程度
+      options:
+        - 建议
+        - 轻微
+        - 明显影响
+        - 完全阻塞
+    validations:
+      required: true
+  - type: input
+    id: summary
+    attributes:
+      label: 一句话概述
+      placeholder: 用一句话说明希望改善什么
+    validations:
+      required: true
   - type: textarea
     id: scenario
     attributes:
@@ -29,4 +77,6 @@ body:
       label: 范围确认
       options:
         - label: 我已确认支持中心和现有 Issue 中没有相同建议。
+          required: true
+        - label: 我已确认正文和附件不包含密码、令牌、私人路径、媒体文件名或其他用户数据。
           required: true
