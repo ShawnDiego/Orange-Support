@@ -16,9 +16,9 @@
 - 当前版本以商店页面为准；安装与更新全部由商店负责
 - 如果 Orange 帮到了你，请在商店里打个评分、留句话——这是对我们最大的支持 🙏
 
-> 用不了商店？可用 [GitHub 直装包](INSTALL-SIDELOAD.md)：去 [Releases](../../releases) 下载
-> 同版本的 `.msix` + `.cer` + `Install.ps1`，右键脚本一键安装（需点一次 UAC）。
-> 直装版与商店版可并存、数据不互通；直装版需手动更新。
+> 用不了商店？可用 [GitHub 安装包](INSTALL.md)：去 [Releases](../../releases) 下载
+> `OrangePlayer_Setup_1.0.4.0_x64.exe`，双击一路下一步（无需管理员、无需证书）。
+> 进阶用户仍可用自签名 `.msix` 直装，见 [INSTALL-SIDELOAD.md](INSTALL-SIDELOAD.md)。
 
 ---
 

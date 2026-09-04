@@ -5,7 +5,8 @@
 **首选下载：[Microsoft Store · OrangePlayer](https://apps.microsoft.com/detail/9NTVLFKQM6LP?cid=orange_github_product&gl=CN&hl=zh-cn)**
 （Windows 10 2004+ · 64 位，安装与更新由商店负责）
 
-**用不了商店：[GitHub 直装包](INSTALL-SIDELOAD.md)**（Releases 里下载 `.msix` + `.cer` + `Install.ps1`，手动安装、手动更新；与商店版可并存、数据不互通）
+**用不了商店：[GitHub 安装包](INSTALL.md)**（Releases 里下载 setup.exe，双击安装、手动更新；
+进阶用户可用自签名 `.msix` 直装，见 [INSTALL-SIDELOAD.md](INSTALL-SIDELOAD.md)）
 
 ---
 
