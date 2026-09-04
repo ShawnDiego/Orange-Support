@@ -1,4 +1,4 @@
-<#
+﻿<#
 .SYNOPSIS
     安装 Orange 直装版（GitHub sideload 包）。
 .DESCRIPTION
