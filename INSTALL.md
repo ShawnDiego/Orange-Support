@@ -28,6 +28,5 @@
   Windows 设置 → 默认应用里决定
 - 更新：下载新版安装包直接覆盖安装即可，媒体库和播放进度保留
 - 卸载：设置 → 应用 → Orange → 卸载（媒体库数据默认保留）
-- 进阶用户仍可用自签名 `.msix` 直装，见 [INSTALL-SIDELOAD.md](INSTALL-SIDELOAD.md)
 
 装不上就带着截图和 Windows 版本到 [Issue](https://github.com/ShawnDiego/Orange-Support/issues/new/choose) 找我们。
