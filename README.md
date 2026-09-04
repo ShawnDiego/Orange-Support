@@ -13,7 +13,7 @@
 **[➜ 打开 Microsoft Store：OrangePlayer](https://apps.microsoft.com/detail/9NTVLFKQM6LP?cid=orange_github_support&gl=CN&hl=zh-cn)**
 
 - 系统要求：Windows 10 2004（10.0.19041）及以上 · 64 位
-- 当然版本以商店页面为准；安装与更新全部由商店负责
+- 当前版本以商店页面为准；安装与更新全部由商店负责
 - 如果 Orange 帮到了你，请在商店里打个评分、留句话——这是对我们最大的支持 🙏
 
 > 为什么 GitHub 不挂安装包？商店包走 Partner Center 签名与更新轨道（`MSIXBundle`），仓库里无法提供等效的可信直装包。在 GitHub 挂一个测试签名的包只会让大家遇到“不受信任证书 / 无法安装”的坑，所以成品唯一入口就是上面的商店链接。
