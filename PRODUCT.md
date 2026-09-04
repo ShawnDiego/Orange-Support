@@ -1,6 +1,8 @@
-# Orange 产品介绍
+# Orange Player 产品介绍
 
-> 一句话：Orange 是 Windows 上的个人影视库——连接你自己的媒体来源，自动整理成海报墙，再用一个不打扰的播放器看完。
+![Orange Player - 你的 Windows 个人影视库](assets/hero.png)
+
+> 一句话：Orange Player 是 Windows 上的个人影视库——连接你自己的媒体来源，自动整理成海报墙，再用一个不打扰的播放器看完。
 
 **首选下载：[Microsoft Store · OrangePlayer](https://apps.microsoft.com/detail/9NTVLFKQM6LP?cid=orange_github_product&gl=CN&hl=zh-cn)**
 （Windows 10 2004+ · 64 位，安装与更新由商店负责）
@@ -15,21 +17,21 @@
 - 希望“搜一次就找到，不管片子存在哪”的人
 - 想要一个深色、海报驱动、键盘优先、不弹窗打扰的 Windows 播放体验的人
 
-不适合：寻找在线片源、云端转码服务、手机 / macOS 客户端的人（Orange 是 Windows 本地整理 + 播放工具）。
+不适合：寻找在线片源、云端转码服务、手机 / macOS 客户端的人（Orange Player 是 Windows 本地整理 + 播放工具）。
 
 ---
 
-## 2. 核心能力：Orange All in One
+## 2. 核心能力：Orange Player All in One
 
 传统方式：先想“这部片存在哪块盘 / 哪个网盘 / 哪台服务器”，再去对应位置找。
 
-Orange 方式：**连接一次，搜索一次**。
+Orange Player 方式：**连接一次，搜索一次**。
 
 1. **连接**：添加本地文件夹、百度网盘、阿里云盘、WebDAV、FTP、SMB / NAS、Plex、Emby。
 2. **搜索**：在标题栏输入一次，所有已连接来源同时响应，结果按来源分组，写清清晰度、字幕与进度。
 3. **继续**：打开详情或直接播放；远端内容也可一键加入本地资料库。
 
-官网有可交互的产品演示：[Orange 官网](https://orange-official-site-orange1-d2gaxdul7d814785d.webapps.tcloudbase.com/#all-in-one)。
+官网有可交互的产品演示：[Orange Player 官网](https://orange-official-site-orange1-d2gaxdul7d814785d.webapps.tcloudbase.com/#all-in-one)。
 
 ---
 
@@ -93,10 +95,10 @@ Orange 方式：**连接一次，搜索一次**。
 
 ## 6. 支持一下
 
-如果你喜欢 Orange：
+如果你喜欢 Orange Player：
 
 1. 去 [Microsoft Store](https://apps.microsoft.com/detail/9NTVLFKQM6LP?cid=orange_github_product&gl=CN&hl=zh-cn) 点个五星、留一句话（比如哪类媒体源 + 哪种播放场景最顺）
-2. 把官网发给同样有 NAS / 网盘 / Plex / Emby 的朋友：[Orange 官网](https://orange-official-site-orange1-d2gaxdul7d814785d.webapps.tcloudbase.com/)
+2. 把官网发给同样有 NAS / 网盘 / Plex / Emby 的朋友：[Orange Player 官网](https://orange-official-site-orange1-d2gaxdul7d814785d.webapps.tcloudbase.com/)
 3. 遇到问题先看 [支持中心](https://orange-official-site-orange1-d2gaxdul7d814785d.webapps.tcloudbase.com/support)，再到本仓库提 Issue——带上版本、复现步骤与预期结果，就是最有用的支持
 
 遇到安全问题请走 [SECURITY.md](SECURITY.md)，不要发公开 Issue。
